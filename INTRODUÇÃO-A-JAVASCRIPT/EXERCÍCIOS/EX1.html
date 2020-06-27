@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 1</title>
+    </head>
+    <body>
+        <script>
+            function exibeTela(end) {
+                var end = {
+                    rua: "Rua dos Pinheiros",
+                    numero: 1293,
+                    bairro: "Ccntro",
+                    cidade: "São Paulo",
+                    uf: "SP"
+                };
+                return end
+            };
+
+            var end = exibeTela(end)
+            console.log(`O usuário mora em ${end.cidade}/${end.uf}, no bairro ${end.bairro}, na rua "${end.rua}" com o nº ${end.numero}.`);
+        </script>
+    </body>
+</html>

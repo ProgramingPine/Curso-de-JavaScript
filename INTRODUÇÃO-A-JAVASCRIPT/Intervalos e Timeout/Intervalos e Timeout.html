@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Curso de JavaScript</title>
+    </head>
+    <body>
+        <script>
+            function exibeAlgo(){
+                console.log('Hello World!');
+            }
+            //OBS: 1000 significa dizer 1 seg.
+            /*E o setInterval vai me mostrar essa Function
+            a cada 1000(1 segundo)*/
+
+            setInterval(exibeAlgo, 1000);
+
+            /*Tem a mesma utilidade do setInterval, porém
+            ele vai me exibir essa Function com delay definido
+            em milissegundos(5000ms = 5 segundos).*/
+            
+            setTimeout(exibeAlgo, 5000)
+        </script>
+    </body>
+</html>
